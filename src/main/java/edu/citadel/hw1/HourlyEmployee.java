@@ -34,10 +34,10 @@ public class HourlyEmployee extends Employee{
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        if (!super.equals(o)) return false;
-        HourlyEmployee that = (HourlyEmployee) o;
+    public boolean equals(Object ob) {
+        if (ob == null || getClass() != ob.getClass()) return false;
+        if (!super.equals(ob)) return false;
+        HourlyEmployee that = (HourlyEmployee) ob;
         return Double.compare(wageRate, that.wageRate) == 0 && Double.compare(hoursWorked, that.hoursWorked) == 0;
     }
 

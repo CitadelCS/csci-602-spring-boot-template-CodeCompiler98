@@ -32,7 +32,7 @@ public class InheritanceDemo {
 
         Collections.sort(employeeArrayList);
 
-        System.out.println("List of Employees (after sorting)");
+        System.out.println("List of Employees (after sorting) ");
         for (Employee emp : employeeArrayList) {
             System.out.println(emp.toString());
         }

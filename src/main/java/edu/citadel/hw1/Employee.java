@@ -30,9 +30,9 @@ abstract class Employee implements Comparable<Employee>{
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
+    public boolean equals(Object ob) {
+        if (ob == null || getClass() != ob.getClass()) return false;
+        Employee employee = (Employee) ob;
         return Objects.equals(name, employee.name) && Objects.equals(hireDate, employee.hireDate);
     }
 

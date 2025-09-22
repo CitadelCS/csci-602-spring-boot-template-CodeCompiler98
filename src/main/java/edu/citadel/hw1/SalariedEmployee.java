@@ -28,10 +28,10 @@ public class SalariedEmployee extends Employee {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        if (!super.equals(o)) return false;
-        SalariedEmployee that = (SalariedEmployee) o;
+    public boolean equals(Object ob) {
+        if (ob == null || getClass() != ob.getClass()) return false;
+        if (!super.equals(ob)) return false;
+        SalariedEmployee that = (SalariedEmployee) ob;
         return Double.compare(annualSalary, that.annualSalary) == 0;
     }
 

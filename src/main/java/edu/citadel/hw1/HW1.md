@@ -4,7 +4,7 @@
 ## Problem Description
 
 **Create the following three classes (all classes need to be created within the `hw1` package):**
-
+ 
 Class `Employee`
 * Abstract class that implements `Comparable<Employee>`.
 * Private fields name `(type String)` and `hireDate` (type `LocalDate`)
