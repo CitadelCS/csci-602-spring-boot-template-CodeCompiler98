@@ -25,3 +25,6 @@
 /nbdist/
 /.nb-gradle/
 /build/
+
+/src/main/resources/application.yaml
+/src/main/resources/application-test.yaml
